@@ -1,0 +1,89 @@
+{
+    "skills":[
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Front-End",
+            "description": "lorem-shit"
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Back-End",
+            "description": "lorem-shit"
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "UI & UX Design",
+            "description": "lorem-shit"
+        },
+        {
+            "id": "4",
+            "src": "./img/feather-pen-2.png",
+            "title": "Webflow Development",
+            "description": "lorem-shit"
+        }
+    ],
+    "portfolio":[
+        {
+            "id": "1",
+            "src": "./img/pro (1).jpg",
+            "title": "Front-End",
+            "description": "lorem-shit",
+            "link":"View in Github"
+        },
+        {
+            "id": "2",
+            "src": "./img/pro (2).jpg",
+            "title": "Back-End",
+            "description": "lorem-shit",
+            "link":"View in Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/pro (2).jpg",
+            "title": "UI & UX Design",
+            "description": "lorem-shit",
+            "link":"View in Github"
+        },
+        {
+            "id": "4",
+            "src": "./img/pro (1).jpg",
+            "title": "Webflow Development",
+            "description": "lorem-shit",
+            "link":"View in Github"
+        }
+    ],
+    "testimonial":[
+        {
+            "id": "1",
+            "count":"5",
+            "src": "./img/pro (1).jpg",
+            "description": "lorem-shit",
+            "Author_name":"Diana Russell",
+            "Author_designation":"Devrel"
+        },
+        {
+            "id": "2",
+            "src": "./img/pro (2).jpg",
+            "description": "lorem-shit",
+            "Author_name":"Diana Russell",
+            "Author_designation":"Devrel"
+        },
+        {
+            "id": "3",
+            "src": "./img/pro (2).jpg",           
+            "description": "lorem-shit",
+            "Author_name":"Diana Russell",
+            "Author_designation":"Devrel"
+        },
+        {
+            "id": "4",
+            "src": "./img/pro (1).jpg",           
+            "description": "lorem-shit",
+            "Author_name":"Diana Russell",
+            "Author_designation":"Devrel"
+        }
+    ]
+}
