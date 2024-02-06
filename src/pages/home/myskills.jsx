@@ -5,7 +5,7 @@ export default function Myskills(){
     return(
         <section className="skills-section" id="Myskills">
             <div className="portfolio-conatiner">
-                <p className="section-title">My Skills</p>
+              
                 <h2 className="skills-section-heading">My Expertise</h2>
             </div>
             <div className="skills-section-container">

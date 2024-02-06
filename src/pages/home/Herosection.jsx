@@ -4,15 +4,15 @@ export default function Herosection(){
         <section id="herosection" className="hero-section">
             <div className="hero-section-content-box">
                 <div className="hero-section-content">
-                    <p className="section-title">Hey I'm MK</p>
+                    <p className="section-title">Hey I'm Kishore</p>
                     <h1 className="hero-section-title">
                         <span className="hero-section-title-color">Full Stack</span>{" "}
                         <br/>
                         Developer
                     </h1>
-                    <p className="hero-section-description">some lorem shit going here and i will change soon i guess.
+                    <p className="hero-section-description">I am passionate and dedicated tech enthusiast with a strong foundation in Python and Django. I currently working on developing full stack development skills and creating an impact with them.
                     <br/>
-                    more of the same lorem shit going here.
+                    
                     </p>
                 </div>
                 <button className="btn btn-primary">Get In Touch</button>

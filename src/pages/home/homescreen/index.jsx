@@ -12,7 +12,6 @@ export default function Homescreen(){
         <Myskills />
         <AboutMe/>
         <Myportfolio/>
-        <Testimonials/>
         <ContactMe/>
         <Footer/>
         </>

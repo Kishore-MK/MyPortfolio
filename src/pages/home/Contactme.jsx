@@ -2,9 +2,8 @@ export default function ContactMe(){
     return (
         <section id="Contact" className="contact-section">
             <div>
-                <p className="sub-title">Get in Touch</p>
                 <h2>Contact Me</h2>
-                <p className="text-lg">alornak abbgq ergqergqjqak kajkjakg</p>
+                <p className="text-lg">Please provide your contact information below:</p>
             </div>
             <form className="contact-form-container">
                 <div className="container">

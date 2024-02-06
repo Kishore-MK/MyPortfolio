@@ -69,10 +69,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="testimonial"
+                to="Myskills"
                 className="text-md"
               >
-                Testimonials
+                My Expertise
               </Link>
             </li>
           </ul>

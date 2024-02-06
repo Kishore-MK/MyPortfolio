@@ -10,10 +10,9 @@ function App() {
       <BrowserRouter>
         <div>
           <Navbar />
-          <Homescreen/>
           <Routes>
             <Route path="/" element={<Homescreen/>}></Route>
-            <Route path="*" element={<div>404 Not found!</div>}></Route>
+            <Route path="/*" element={<div>404 Not found!</div>}></Route>
           </Routes>
         </div>
       </BrowserRouter>

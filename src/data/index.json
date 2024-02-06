@@ -2,57 +2,57 @@
     "skills":[
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
+            "src": "./img/react.png",
             "title": "Front-End",
-            "description": "lorem-shit"
+            "description": "HTML/CSS/Js,\nReact JS,\nBootstrap "
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
+            "src": "./img/backend.png",
             "title": "Back-End",
-            "description": "lorem-shit"
+            "description": "Django Framework,\nPostgreSQL,\nMySQL,\nRestfulAPI \n"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
+            "src": "./img/uiux.png",
             "title": "UI & UX Design",
-            "description": "lorem-shit"
+            "description": "Figma,\nAdobe Photoshop"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-2.png",
-            "title": "Webflow Development",
-            "description": "lorem-shit"
+            "src": "./img/tools.png",
+            "title": "Tools",
+            "description": "Git,\nDocker,\nLinux\n"
         }
     ],
     "portfolio":[
         {
             "id": "1",
-            "src": "./img/pro (1).jpg",
-            "title": "Front-End",
-            "description": "lorem-shit",
-            "link":"View in Github"
+            "src": "./img/matchgram.png",
+            "title": "Matchgram",
+            "description": "Built a responsive and interactive Instagram modelled clone called MatchGram with HTML, CSS and made responsive with JavaScript.",
+            "link":"https://kishore-mk.github.io/Instagram_clone-Matchgram"
         },
         {
             "id": "2",
-            "src": "./img/pro (2).jpg",
-            "title": "Back-End",
-            "description": "lorem-shit",
-            "link":"View in Github"
+            "src": "./img/notesapp.png",
+            "title": "Notes App",
+            "description": "Notes app with Django framework integrated with RestfulApi and ReactJs for frontend which can perform all standard notes actions like add,delete with PostgreSQL for database.",
+            "link":"https://github.com/Kishore-MK/Notes-app"
         },
         {
             "id": "3",
-            "src": "./img/pro (2).jpg",
-            "title": "UI & UX Design",
-            "description": "lorem-shit",
-            "link":"View in Github"
+            "src": "./img/calcjs.png",
+            "title": "Calculator with JS",
+            "description": "Basic calculator app made with JavaScript which performs standard arithmetic operations.",
+            "link":"https://kishore-mk.github.io/Calculator_with_Js/"
         },
         {
             "id": "4",
-            "src": "./img/pro (1).jpg",
-            "title": "Webflow Development",
-            "description": "lorem-shit",
-            "link":"View in Github"
+            "src": "./img/pyprojects.png",
+            "title": "Python projects",
+            "description": "Worked on some python which helped me to grasp the fundamentals such classes,objects and libraries in python.",
+            "link":"https://github.com/Kishore-MK/Coderscave"
         }
     ],
     "testimonial":[
