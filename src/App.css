@@ -628,6 +628,9 @@ input[type="checkbox"]{
 
 @media (max-width:420px){
 
+  body {
+    min-width: 420px;
+}
 
   .navbar{
     display: flex;
@@ -639,14 +642,15 @@ input[type="checkbox"]{
   .navbar-items > ul{
     list-style: none;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    padding-left: 115px;
     flex-direction: column;
     gap: 20.667px;
   }
   
 
   .herosection{
-    margin-top: 250px;
+    margin-top: 270px;
     display: flex;
     background-color: var(--bg-shade);
 
@@ -675,7 +679,7 @@ input[type="checkbox"]{
     justify-content: flex-start;
     align-items: center;
     gap: 106.667px;
-    margin-left: 100px;
+    margin-left: 40px;
   }
   
   .skills-section-heading{
@@ -748,8 +752,6 @@ input[type="checkbox"]{
   /* About section */
   .about-section{
     display: grid;
-    padding: 133.3px 85.3px;
-    align-items: 114.6px;
     grid-template-columns: repeat(2,1fr);
   }
   
@@ -825,7 +827,7 @@ input[type="checkbox"]{
   }
   
   .contact-form-container{
-    padding-left: 40px;
+    padding-left: 80px;
   }
   
  
