@@ -47,7 +47,7 @@ export default function ContactMe(){
                    
                     <label htmlFor="message" className="contact-label">
                         <span className="text-md">Your message</span>
-                        <textarea placeholder="Type your message" className="contact-input text-md" id="message" rows="8"></textarea>
+                        <textarea placeholder="Type your message" className="contact-input text-md" id="message" name='message' rows="8"></textarea>
                     </label>
                     <div>
                         <button className="btn btn-primary contact-form-btn">Send</button>
