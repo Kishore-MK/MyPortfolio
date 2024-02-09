@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 import {Link} from "react-scroll" ;
-
+import data from "../../data/index.json";
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
@@ -65,6 +65,9 @@ function Navbar() {
             </ul>
 
         </div>
+        {data?.resume?.map((item) =>(
+            <a href={item.link} target="_blank"><button activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} className="btn btn-outline-primary">Download Resume</button></a>
+        ))}
         <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-outline-primary">Contact Me</Link>
 
         

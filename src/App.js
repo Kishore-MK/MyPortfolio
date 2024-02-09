@@ -13,7 +13,6 @@ function App() {
           <Homescreen />
           <Routes>
             <Route path="/" element={<Homescreen />}></Route>
-            <Route path="*" element={<div>404 Not found!</div>}></Route>
           </Routes>
         </div>
       </Router>

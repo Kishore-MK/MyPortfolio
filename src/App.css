@@ -627,7 +627,26 @@ input[type="checkbox"]{
 }
 
 @media (max-width:420px){
+
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-items > ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20.667px;
+  }
+  
+
   .herosection{
+    margin-top: 250px;
     display: flex;
     background-color: var(--bg-shade);
 
