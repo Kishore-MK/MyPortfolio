@@ -15,7 +15,7 @@ function Footer() {
                 activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
-                offset={-280}
+                offset={-70}
                 duration={500}
                 to="herosection"
                 className="text-md"
@@ -28,7 +28,7 @@ function Footer() {
                 activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
-                offset={-280}
+                offset={-70}
                 duration={500}
                 to="portfolio"
                 className="text-md"
@@ -41,7 +41,7 @@ function Footer() {
                 activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
-                offset={-280}
+                offset={-70}
                 duration={500}
                 to="aboutme"
                 className="text-md"
@@ -54,7 +54,7 @@ function Footer() {
                 activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
-                offset={-220}
+                offset={-70}
                 duration={500}
                 to="Contact"
                 className="text-md"
@@ -67,7 +67,7 @@ function Footer() {
                 activeClass="navbar-active-content"
                 spy={true}
                 smooth={true}
-                offset={-280}
+                offset={-70}
                 duration={500}
                 to="Myskills"
                 className="text-md"

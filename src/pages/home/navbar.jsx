@@ -47,18 +47,18 @@ function Navbar() {
         <div className={`navbar-items ${navActive ? "active" : ""}`}>
             <ul>
                 <li>
-                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-280} duration={500} to="herosection" className="navbar-content">Home</Link>
+                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="herosection" className="navbar-content">Home</Link>
                 </li>
                 <li>
-                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-280} duration={500} to="Myskills" className="navbar-content">My Skills</Link>
-                </li>
-
-                <li>
-                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-280} duration={500} to="portfolio" className="navbar-content">Portfolio</Link>
+                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-20} duration={500} to="Myskills" className="navbar-content">My Skills</Link>
                 </li>
 
                 <li>
-                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-280} duration={500} to="aboutme" className="navbar-content">About Me</Link>
+                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-20} duration={500} to="portfolio" className="navbar-content">Portfolio</Link>
+                </li>
+
+                <li>
+                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-30} duration={500} to="aboutme" className="navbar-content">About Me</Link>
                 </li>
 
         
@@ -66,9 +66,9 @@ function Navbar() {
 
         </div>
         {data?.resume?.map((item) =>(
-            <a href={item.link} target="_blank"><button activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} className="btn btn-outline-primary">Download Resume</button></a>
+            <a href={item.link} target="_blank"><button activeClass="navbar-active-content" className="btn btn-outline-primary">Download Resume</button></a>
         ))}
-        <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-220} duration={500} to="Contact" className="btn btn-outline-primary">Contact Me</Link>
+        <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-90} duration={500} to="Contact" className="btn btn-outline-primary">Contact Me</Link>
 
         
         </nav>

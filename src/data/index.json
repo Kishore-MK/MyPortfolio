@@ -42,7 +42,7 @@
             "id": "2",
             "src": "./img/notesapp.png",
             "title": "Notes App",
-            "description": "Notes app with Django framework integrated with RestfulApi and ReactJs for frontend which can perform all standard notes actions like add,delete with PostgreSQL for database.",
+            "description": "Notes app with Django framework integrated with RestfulApi and ReactJs for frontend which can perform all standard notes actions like add,delete with PostgreSQL for the database.",
             "link":"https://github.com/Kishore-MK/Notes-app"
         },
         {
@@ -56,7 +56,7 @@
             "id": "4",
             "src": "./img/pyprojects.png",
             "title": "Python projects",
-            "description": "Worked on some python which helped me to grasp the fundamentals such classes,objects and libraries in python.",
+            "description": "Worked on some python which helped me to grasp the fundamentals such as classes,objects and libraries in python.",
             "link":"https://github.com/Kishore-MK/Coderscave"
         }
     ],
